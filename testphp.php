@@ -2,4 +2,5 @@
 <body>
 <?php phpinfo(); ?>
 </BODY>
-</HTML> 
+</HTML>
+

@@ -1,0 +1,78 @@
+
+@media all and (orientation:portrait) {
+  /* Styles for Portrait screen */
+}
+@media all and (orientation:landscape) {
+  /* Styles for Landscape screen */
+}
+
+
+/* vertical sidebar button */
+.sidenav_btn {
+	position: fixed;
+	background-color: #8A0007;
+	border: 1px solid black;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 1.5em;	/* 1.5 times the size of the current font */
+	padding: .5vh 1vw;
+
+}
+.sidenav_btn:hover { /* when mousing over */
+	background-color: #FF0505;
+}
+/* end vertical sidebar button */
+
+
+/* vertical sidebar  */
+.sidenav {	 /* The side navigation menu */
+    height: 100%;		/* 100% Full-height */
+    width: 0;				/* 0 width - change this with JavaScript */
+    position: fixed;		/* Stay in place */
+    z-index: 1;			/* Stay on top */
+    left: 0;				/* Position the navbar at the left of the page */
+    background-color: #111; /* Black*/
+    overflow-x: hidden;	/* Disable horizontal scroll */
+    padding-top: 5vh;	/* Place content 5% of height from the top */
+    transition: 0.5s;		/* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {	/* The navigation menu links */
+    padding: 1vh 2vw 1vh 3vw;  /* top right bottom left */
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #F1F1F1;
+}
+
+.sidenav .closebtn {	/* Position and style the close button (top right corner) */
+    position: absolute;
+    top: 0;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+}
+/* end vertical sidebar  */
+
+
+
+/* main text box */
+.textbox_overlay {
+	margin: .5vw;
+	background-color: rgba(100, 100, 100, 0.8);	/*rgba to keep text solid*/
+	border: 1px solid black;
+}
+
+.textbox_overlay p {
+	margin: 1vw;
+}
+
